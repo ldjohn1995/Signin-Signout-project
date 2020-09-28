@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+  background-color: #3333;
+}
+.row{
+  background-color: white;
+}
+#searchbar{
+  width:116%;
+  border-radius: 3px;
+  border: 2px solid #5cdb95;
+  @include transition(all 200ms ease-in-out)
+
+}
+#searchbtn{
+  border-radius: 3px;
+}
+.row:nth-child(2){
+  background-color: #696969;
+  color:white;
+  padding:8px;
+
+}
+@media (min-width: @screen-sm-min) { 
+
+
+  
+ }
+#movies img , #movie img {
+  width:100%;
+}
+@media(min-width:90px){
+#movies .col-3 .well{
+  height: 390px;
+}
+#movies .col-3 .well img{
+  height: 240px;
+}
+}
